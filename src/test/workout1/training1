@@ -1,0 +1,16 @@
+def createPeopleName(name):
+	createPeopleName = 'name: ' + name
+	return createPeopleName
+
+def createPeopleAge(age):
+	createPeopleAge = 'age: ' + str(age)
+	return createPeopleAge
+
+def printAll (name, age):
+  print (createPeopleName(name), createPeopleAge(age))
+
+
+printAll('Vasya', 40) 
+
+
+
