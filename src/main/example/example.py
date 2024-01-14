@@ -17,12 +17,12 @@ def square_eq_solver(a, b, c):
 def show_result(data):
 	if len(data) > 0:
 		for index, value in enumerate(data):
-			print(f'Корунь номер {index+1} равен {value:.02f}')
+			print(f'Корень номер {index+1} равен {value:.02f}')
 
 def main():
 	a, b, c = map(int, input('Пожалуйста, введите три числа через пробел: ').split())
 	result = square_eq_solver(a, b, c)
 	show_result(result)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
 	main()
