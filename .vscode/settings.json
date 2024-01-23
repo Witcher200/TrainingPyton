@@ -1,4 +1,5 @@
 {
 	"audioCues.diffLineDeleted": "off",
-	"audioCues.diffLineInserted": "off"
+	"audioCues.diffLineInserted": "off",
+	"formatOnSave": "true"
 }
