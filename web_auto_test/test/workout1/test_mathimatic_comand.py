@@ -1,5 +1,5 @@
 from conftest import set_up
-from mathimatic_comand import *
+from web_auto_test.src.workout1.mathimatic_comand import *
 import pytest
 
 @pytest.mark.parametrize('x, y, result', [(4, 4, 8),
